@@ -1,3 +1,5 @@
+
+
 How to build PlatformIO based project
 =====================================
 
@@ -25,5 +27,12 @@ $ pio run -e frdm_k64f --target upload
 # Clean build files
 $ pio run --target clean
 ```
+
+
+
+https://github.com/user-attachments/assets/7079f76a-5119-4630-93d9-3d7c861b70a0
+
+Para fazer com que a entrada digital funcionasse utilizei o zehpyy 4.2, como é exigido no notion. Para que funcionasse, tive que criar um overlay para o código, assim pude configurar a porta de saída do meu microcontrolador.
+
 
 
